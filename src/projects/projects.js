@@ -9,7 +9,7 @@ function Projects(props) {
                 </a>
                 <a href="https://hello-world-travel.netlify.app/" className="projects-two">
                 </a>
-                <a href="http://giggapedia.com/" className="projects-three">
+                <a href="https://giggapedia.netlify.app/" className="projects-three">
                 </a>
                 <a href="https://cozy-gnome-816bc0.netlify.app/" className="projects-four">
                 </a>
@@ -30,7 +30,7 @@ function Projects(props) {
                 <div className="projects-seven">
                     <div className="projects-lo-resthree">
                         <h1 className="projects-banner-textthree">
-                            Portfolio: Front End - Javascript - HTML - CSS
+                            Portfolio: React/Router - CSS
                         </h1>
                     </div>
                 </div>
