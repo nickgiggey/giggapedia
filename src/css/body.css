@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.body-container {
+    background: #08E8DE;
+    margin: 3px;
+    line-height: 1;
+    font-family: 'Codystar', cursive;
+}

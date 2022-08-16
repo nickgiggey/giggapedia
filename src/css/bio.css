@@ -1,0 +1,47 @@
+.bio-section-1 {
+  padding: 400px 0px 0vw 20px;
+  margin: 0px 0px 3vw 0px;
+  height: 300px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bio-first-pic {
+  width: 20vw;
+  height: auto;
+  background-color: #00000019;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+.bio-first-paragraph {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.bio-section-2 {
+  margin: 0px 0px 3vw 100px;
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bio-second-pic {
+  width: 20vw;
+  height: auto;
+  background-color: #00000019;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+.bio-second-paragraph {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}

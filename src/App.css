@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&family=#BF953Ftail&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf)
+}
+
+html {
+  background: white;
+}
+
+.home-container {
+  background: black;
+}

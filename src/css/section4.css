@@ -1,0 +1,56 @@
+.section-4-section-4 {
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    font-size: 1vw;
+    color: yellow;
+    border: 2px solid;
+    border-top-color: #08E8DE;
+    border-right-color: #08E8DE;
+    border-bottom-color: #08E8DE;
+    border-left-color: #08E8DE;
+    background: url(./images/4333791.jpg) no-repeat center center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+.section-4-hustle-container {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(2, 350px);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    align-items: start;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.section-4-side-hustle {
+    margin-top: 25px;
+    font-size: 3.5em;
+    color: white;
+    font-family: 'Oi', cursive;
+    font-family: 'Monoton', cursive;
+    text-shadow: 4px 4px white;
+    background: rgba(12, 98, 250);
+    background: linear-gradient(to right, rgba(12, 98, 250) 40%, rgba(69, 58, 251) 43%, rgba(133, 22, 162) 48%, rgba(164, 0, 144) 52%, rgba(206, 0, 130) 56%, rgba(251, 0, 109) 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-4-video {
+    padding: 1em;
+    border: 4px solid #ffa500;
+    border-radius: 15px;
+}
+
+.section-4-collection {
+    height: 500px;
+    width: auto!important;
+    border: 4px solid #ffa500;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    align-items: center;
+}

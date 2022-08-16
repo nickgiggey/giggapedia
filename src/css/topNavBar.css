@@ -1,0 +1,113 @@
+.topnavbar-nav {
+  text-align: center;
+}
+
+.topnavbar-topnavbar {
+  top: 0px;
+  Left: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 500;
+  background-color: #2c92d5;
+  border: 3px solid;
+  border-top-color: #2c92d5;
+  border-right-color: #2c92d5;
+  border-bottom-color: #08E8DE;
+  border-left-color: #2c92d5;
+  opacity: 90%;
+  position: fixed;
+  box-shadow: 0 2px 30px rgba(44, 146, 213,.80);
+}
+
+.topnavbar-navbar .nav-icon {
+  padding: 25px 5px 5px 5px;
+}
+
+.name-name {
+  font-size: 30px;
+  text-decoration-color: #08E8DE;
+  color: white;
+  font-family: 'Rock Salt', cursive;
+  margin: 1vmax 0vw 5px 5.5vmax;
+}
+
+.name-underline {
+  font-size: 50px;
+  color: #FFA500;
+  margin: 0vw 0vw 0vw 0vw;
+  position: fixed;
+  top: 10px;
+  left: 3vmax;
+  width: 25vw;
+  height: 4px;
+  text-align: center;
+  background-color: #00000000;
+  border: none;
+  background-size: 300% 100%;
+}
+
+.name-underline:hover {
+  background-position: 100% 0;
+  transition: all .4s ease-out;
+}
+
+.name-underline:focus {
+  outline: none;
+}
+
+.name-underline.color {
+  background-image: linear-gradient(to right, #00000000, #00000000, #FCF340, #00000000);
+}
+
+.name-logo {
+  float: left;
+}
+
+.name-logo-img {
+  width: 70px;
+  height: auto;
+  padding: 3px;
+  position: fixed;
+}
+
+.topnavbar-links-container {
+  padding: 57px 17vw 1vw 1vw;
+  position: fixed;
+  top: 27px;
+  right: 30px;
+  transition-duration: 0.4s;
+  background-color: #0000;
+  margin: 0px;
+}
+
+.topnavbar-header-button {
+  width: 8vw;
+  margin: 2.7px 0vw 0vw 5.7vw;
+  height: 25px;
+  border: 1px solid;
+  border-color: #86eae9;
+  background-size: 300% 100%;
+  border-radius: 0px 0px 20px 20px;
+  border-top-color: #0000;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(to left, black, #faff00, black, black);
+}
+
+.topnavbar-header-button:hover {
+  background-position: 100% 0;
+  transition: all .4s ease-in-out;
+}
+
+.topnavbar-header-button:focus {
+  outline: none;
+}
+
+.topnavbar-header-button-styling {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}

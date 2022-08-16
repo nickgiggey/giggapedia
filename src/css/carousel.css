@@ -1,0 +1,51 @@
+.carousel {
+    position: relative;
+    width: 40rem;
+    margin-top: 20vh;
+    padding-left: 150px;
+}
+
+.carousel-first-picture, .carousel-second-picture, .carousel-third-picture, .carousel-fourth-picture, .carousel-fifth-picture {
+    position: absolute;
+    opacity: 0;
+    animation: display 20s infinite;
+    border: 5px solid rgb(248, 248, 4);
+    border-radius: 25px;
+}
+
+@keyframes display {
+    0% {
+        transform: translateX(150px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    35% {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+}
+
+img:nth-child(1) {
+    animation-delay: 0s;
+    width: 100%;
+}
+
+img:nth-child(2) {
+    animation-delay: 4s;
+    width: 100%;
+}
+img:nth-child(3) {
+    animation-delay: 8s;
+    width: 100%;
+}
+img:nth-child(4) {
+    animation-delay: 12s;
+    width: 100%;
+}
+img:nth-child(5) {
+    animation-delay: 16s;
+    width: 100%;
+}

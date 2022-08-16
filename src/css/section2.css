@@ -1,0 +1,233 @@
+.section-2 {
+  text-align: center;
+  font-size: 1vw;
+  background: black;
+  height: 710px;
+  width: auto;
+  border: 2px solid;
+  border-top-color: #08E8DE;
+  border-right-color: #08E8DE;
+  border-bottom-color: #08E8DE;
+  border-left-color: #08E8DE;
+  padding: 5px 5px 5px 5px;
+}
+
+.section-2-words {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  color: #08E8DE;
+  line-height: 2.5;
+  font-family: 'Limelight', cursive;
+  gap: 15px;
+  font-size: 1.25em;
+}
+
+.section-2-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.section-2-one {
+  grid-column: 1;
+  grid-row: 1;
+  border: 4px solid;
+  border-radius: 15px;
+  border-color: orange;
+  opacity: 80%;
+  border-radius: 10px;
+}
+
+.section-2-design-container {
+  display: grid;
+  grid-template-columns: repeat(2, 275px);
+  grid-template-rows: repeat(10, 40px);
+  gap: 5px;
+  align-items: center;
+  justify-items: center;
+  padding: 1.5em;
+}
+
+.section-2-container {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.section-2-welcome {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 2vw;
+  margin-top: 30px;
+  animation: neon 3.5s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow:
+      0 0 10vw #fc1b14,
+      0 0 .4vw #fccd24,
+      .5vw .5vw .1vw #7c6614;
+    color: #fccd24;
+  }
+
+  50% {
+    text-shadow:
+      0 0 5vw #7e0f0b,
+      0 0 .2vw #7e0f0b,
+      .5vw .5vw .1vw #3d320a;
+    color: #816913;
+  }
+}
+
+.section-2-typewriter, typewritten-text {
+  font-family: 'Monoton', cursive;
+  color: whitesmoke;
+  font-size: 1.2vw;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  color: rgba(251, 0, 110)
+}
+
+.section-2-two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  opacity: 80%;
+  border-radius: 15px;
+}
+
+.section-2-three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+  border: 4px solid;
+  border-color: orange;
+  opacity: 80%;
+  border-radius: 15px;
+  padding-top: 15px;
+}
+
+.section-2-qualifications {
+  color: #08E8DE;
+  font-size: 25px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.section-2-four {
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+  border: 4px solid;
+  border-color: orange;
+  opacity: 80%;
+  border-radius: 15px;
+  background: url(./images/Pacman.gif);
+  background-size: contain;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section-2-five {
+  grid-column: 2;
+  grid-row: 4;
+  border: 4px solid;
+  border-radius: 15px;
+  border-color: orange;
+  opacity: 80%;
+  border-radius: 15px;
+}
+
+.section-2-six {
+  grid-column: 3;
+  grid-row: 4;
+  border: 4px solid;
+  border-radius: 15px;
+  border-color: orange;
+  opacity: 80%;
+  border-radius: 15px;
+}
+
+.section-2-animation-container {
+	overflow: hidden;
+	width: 99.2%;
+	height: 100%;
+	display: grid;
+	position: sticky;
+	border: 4px solid;
+	border-radius: 15px;
+	border-color: orange;
+}
+
+.section-2-top {
+	background: linear-gradient(#170435 25%, #4a1062 50%, #a51f7f 100%);
+}
+
+.section-2-bottom {
+	position: absolute;
+}
+
+.section-2-text {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.section-2-intro-title {
+	color: transparent;
+	font-family: "Russo One", sans-serif;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	transform: translatey(25px);
+	background: linear-gradient(#ff2d82 30%, #fddd17, #ff6936 60%, #ff2d82 100%);
+	-webkit-background-clip: text;
+  background-clip: text;
+	-webkit-text-stroke: 1px silver;
+}
+
+.section-2-portfolio {
+	color: #461475;
+	font-family: 'Faster One', cursive;
+	font-weight: 300;
+	font-size: 2em;
+	margin: 20px;
+	-webkit-text-stroke: 1px #00bcda;
+	text-shadow: 0 0 8px #ffddff, 0 0 10px #fc5cff, 0 0 15px #e93dfc, 0 0 20px #6c1d91, 0 0 25px #310d5a;
+}
+
+.section-2-stuff {
+	color: #461475;
+	font-family: 'Alatsi', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	margin-top: 0px;
+	-webkit-text-stroke: 1px #00bcda;
+	margin-bottom: 80px;
+	text-shadow: 0 0 8px #ffddff, 0 0 10px #fc5cff, 0 0 15px #e93dfc, 0 0 20px #6c1d91, 0 0 25px #310d5a;
+}
+
+@keyframes move {
+	to {
+		background-position-y: 2000px;
+	}
+}
+
+@keyframes bg-shift {
+	0% {
+		background-position: 0 -25px;
+	}
+	100% {
+		background-position: 0 25px;
+	}
+}
