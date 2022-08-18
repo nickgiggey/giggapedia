@@ -12,24 +12,24 @@ function SideNav(props) {
         <section>
             <div className="sideNav-nav-icon">
                 <ul className="sideNav-icon-links-container" id="pencil">
-                    <button className="sideNav-header-icon-github">
+                    <a href='https://github.com/nickgiggey' className="sideNav-header-icon-github">
                         <img className="sideNav-github-pic" alt="#" src={github} />
-                    </button>
-                    <button className="sideNav-header-icon-linkedin">
+                    </a>
+                    <a href='https://www.linkedin.com/in/nicholas-giggey/' className="sideNav-header-icon-linkedin">
                         <img className="sideNav-linkedin-pic" alt="#" src={linkedin} />
-                    </button>
-                    <button className="sideNav-header-icon-youtube">
+                    </a>
+                    <a href='https://www.youtube.com/channel/UCI2Gb4A93hpgU240bkF0k8w' className="sideNav-header-icon-youtube">
                         <img className="sideNav-youtube-pic" alt="#" src={youtube} />
-                    </button>
-                    <button className="sideNav-header-icon-instagram">
+                    </a>
+                    <a href='https://www.instagram.com/_movie_relics_/' className="sideNav-header-icon-instagram">
                         <img className="sideNav-instagram-pic" alt="#" src={instagram} />
-                    </button>
-                    <button className="sideNav-header-icon-facebook">
+                    </a>
+                    <a href='https://www.facebook.com/nicholas.giggey' className="sideNav-header-icon-facebook">
                         <img className="sideNav-facebook-pic" alt="#" src={facebook} />
-                    </button>
-                    <button className="sideNav-header-icon-movierelics">
+                    </a>
+                    <a href='https://www.movie-relics.com/' className="sideNav-header-icon-movierelics">
                         <img className="sideNav-movierelics-pic" alt="#" src={movieRelics} />
-                    </button>
+                    </a>
                 </ul>
             </div>
         </section>
