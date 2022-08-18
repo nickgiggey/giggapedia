@@ -1,6 +1,14 @@
+.bio-body-container {
+  background-image: url(images/IMG_0327.JPG);
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+}
+
 .bio-section-1 {
-  padding: 400px 0px 0vw 20px;
-  margin: 0px 0px 3vw 0px;
+  padding: 200px 0px 0vw 20px;
+  /* margin: 0px 0px 3vw 0px; */
   height: 300px;
   width: 80%;
   display: flex;
@@ -24,8 +32,8 @@
 }
 
 .bio-section-2 {
-  margin: 0px 0px 3vw 100px;
-  width: 90%;
+  /* margin: 0px 0px 3vw 100px; */
+  width: 80%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
