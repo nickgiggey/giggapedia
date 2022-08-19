@@ -1,47 +1,109 @@
 .bio-section-1 {
-  padding: 400px 0px 0vw 20px;
-  margin: 0px 0px 3vw 0px;
+  background-image: url(./images/IMG_0327.JPG);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1100px;
+}
+
+.bio-wrapper {
+  display: grid;
+  padding-top: 175px;
+  padding-left: 200px;
+  position: sticky;
+  align-items: center;
+  padding-right: 125px;
+}
+
+.bio-one {
   height: 300px;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  width: auto!important;
+  opacity: 95%;
+  border: solid 5px #41403E;
+  transition: all .5s ease;
+  color: #41403E;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px 0;
 }
 
-.bio-first-pic {
-  width: 20vw;
-  height: auto;
-  background-color: #00000019;
-  border-radius: 50%;
-  margin: 100px;
-}
+.bio-one:hover {
+  box-shadow: 2px 8px 4px -6px hsla(0,0%,0%,.3);
+} 
 
-.bio-first-paragraph {
-  color: white;
-  font-size: 20px;
+.bio-lo-res {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 0.48em;
+  font-weight: bold;
   text-align: center;
 }
 
-.bio-section-2 {
-  margin: 0px 0px 3vw 100px;
-  width: 90%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-  align-items: center;
+.bio-two {
+  grid-column: 6;
+  grid-row: 2;
+  height: 300px;
+  width: auto!important;
+  opacity: 95%;
+  border: solid 5px #41403E;
+  transition: all .5s ease;
+  color: #41403E;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px 0;
 }
 
-.bio-second-pic {
-  width: 20vw;
-  height: auto;
-  background-color: #00000019;
-  border-radius: 50%;
-  margin: 100px;
+.bio-two:hover {
+  box-shadow: 2px 8px 4px -6px hsla(0,0%,0%,.3);
 }
 
-.bio-second-paragraph {
-  color: white;
-  font-size: 20px;
+.bio-lo-restwo {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 0.48em;
+  font-weight: bold;
   text-align: center;
 }
+
+.bio-five {
+  grid-column: 3 / 6;
+  grid-row: 1;
+  height: 20%;
+  width: auto!important;
+  font-size: 35px;
+  transition: all .5s ease;
+  color: #41403E;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px 0;
+  background-color: #ffffff80;
+}
+
+.bio-five:hover {
+  box-shadow: 2px 8px 4px -6px hsla(0,0%,0%,.3);
+  border: solid 4px #41403E;
+}
+
+.bio-six {
+  grid-column: 3 / 6;
+  grid-row: 2;
+  height: 20%;
+  width: auto!important;
+  font-size: 35px;
+  transition: all .5s ease;
+  color: #41403E;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px 0;
+  background-color: #ffffff80;
+}
+
+.bio-six:hover {
+  box-shadow: 2px 8px 4px -6px hsla(0,0%,0%,.3);
+  border: solid 4px #41403E;
+} 
