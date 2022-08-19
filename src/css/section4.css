@@ -1,6 +1,8 @@
 .section-4-section-4 {
+    font-family: 'Rock Salt', cursive;
     text-align: center;
     font-size: 1vw;
+    color: yellow;
     border: 2px solid;
     border-top-color: #08E8DE;
     border-right-color: #08E8DE;
@@ -39,6 +41,7 @@
 }
 
 .section-4-video {
+    padding: 1em;
     border: 4px solid #ffa500;
     border-radius: 15px;
 }

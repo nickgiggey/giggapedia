@@ -1,5 +1,5 @@
 .topnavbar-nav {
-  display: flex;
+  text-align: center;
 }
 
 .topnavbar-topnavbar {
@@ -77,6 +77,7 @@
   right: 30px;
   transition-duration: 0.4s;
   background-color: #0000;
+  margin: 0px;
 }
 
 .topnavbar-header-button {

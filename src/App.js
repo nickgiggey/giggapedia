@@ -4,7 +4,7 @@ import './css/topNavBar.css';
 import { Routes, Route, Link } from 'react-router-dom';
 import Bio from './bio/bio';
 import Home from './home/homeContainer';
-// import Links from './links/links';
+import Links from './links/links';
 import Projects from './projects/projects';
 import Resume from './resume/resume';
 import SideNav from './sideNav/sideNav';
@@ -31,9 +31,9 @@ function App() {
             <button className='topnavbar-header-button'>
               <Link to='/projects' className="topnavbar-header-button-styling">Projects</Link>
             </button>
-            {/* <button className='topnavbar-header-button'>
+            <button className='topnavbar-header-button'>
               <Link to='/links' className="topnavbar-header-button-styling">Links</Link>
-            </button> */}
+            </button>
           </ul>
         </div>
         <SideNav />
@@ -44,7 +44,7 @@ function App() {
           <Route path='/bio' element={<Bio />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/projects' element={<Projects />} />
-          {/* <Route path='/links' element={<Links />} /> */}
+          <Route path='/links' element={<Links />} />
         </Routes>
       </main>
     </section>
