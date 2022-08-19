@@ -4,6 +4,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
+  height: 1100px;
 }
 
 .bio-wrapper {
@@ -19,7 +20,6 @@
   height: 300px;
   width: auto!important;
   opacity: 95%;
-  background-color: black;
   border: solid 5px #41403E;
   transition: all .5s ease;
   color: #41403E;
@@ -73,9 +73,7 @@
   grid-row: 1;
   height: 20%;
   width: auto!important;
-  background-color: transparent;
   font-size: 35px;
-  text-decoration: none;
   transition: all .5s ease;
   color: #41403E;
   border: 3px solid rgba(0, 0, 0, 0.1);
@@ -95,9 +93,7 @@
   grid-row: 2;
   height: 20%;
   width: auto!important;
-  background-color: transparent;
   font-size: 35px;
-  text-decoration: none;
   transition: all .5s ease;
   color: #41403E;
   border: 3px solid rgba(0, 0, 0, 0.1);
