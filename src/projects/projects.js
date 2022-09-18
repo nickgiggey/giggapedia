@@ -11,7 +11,7 @@ function Projects(props) {
                 </a>
                 <a href="http://giggapedia.com/" className="projects-three">
                 </a>
-                <a href="https://cozy-gnome-816bc0.netlify.app/" className="projects-four">
+                <a href="https://shiny-selkie-ba984a.netlify.app/guestlist" className="projects-four">
                 </a>
                 <div className="projects-five">
                     <div className="projects-lo-res">
