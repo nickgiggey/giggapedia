@@ -1,8 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
 .section-1 {
-    height: 10vw;
+    height: 0vw;
     background-image: url(./images/retro-sunset-4k_1630531823.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px 0px 45vw 20px;
+    padding: 40px 0px 45vw 0px;
+}
+
+.section-1-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5vw;
+    color: white;
+    margin-top: 12vh;
+    padding-left: 150px;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    /* transform: translate(0%,0%); */
+}
+
+.section-1-text2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5vw;
+    color: white;
+    padding-top: 5vmin;
+    margin-bottom: -10vh;
+    padding-left: 50vmax;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    /* transform: translate(0%,0%); */
+}
+
+.section-1-carousel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section-1-text:before {
+    content:'Completed Projects';
+    color: #ff1ead;
+    position: absolute;
+    top: 1.1px;
+    left: 151.3px;
+    z-index: -2;
+}
+.section-1-text:after {
+    content:'Completed Projects';
+    color: #000;
+    position: absolute;
+    top: 0.75px;
+    left: 150.75px;
+    z-index: -1;
 }

@@ -7,10 +7,10 @@ import observatory from '../css/images/175699049-afff3ee9-6ddc-4866-b24a-5c34044
 import helloWorld from '../css/images/182655998-55985a44-5676-4e29-9ca0-3f49efcb76a2.png';
 import gitzCarlton from '../css/images/frontpage (2).png';
 
-function Carousel2(props) {
+function Carousel(props) {
     return (
         <section>
-            <nav className="carousel">
+            <nav className="carousel-2">
                 <Link to='/projects'>
                     <img src={portfolio} alt="" className="carousel-first-picture" />
                     <img src={observatory} alt="" className="carousel-second-picture" />
@@ -30,4 +30,4 @@ function Carousel2(props) {
     );
 }
 
-export default Carousel2;
+export default Carousel;

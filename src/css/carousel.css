@@ -1,8 +1,15 @@
 .carousel {
     position: relative;
-    width: 40rem;
-    margin-top: 20vh;
-    padding-left: 150px;
+    min-width: 30vmax;
+    margin-top: 4vw;
+    padding-left: 5vw;
+}
+
+.carousel-2 {
+    position: relative;
+    min-width: 22vmax;
+    margin-top: 8vw;
+    padding-left: 14vw;
 }
 
 .carousel-first-picture, .carousel-second-picture, .carousel-third-picture, .carousel-fourth-picture, .carousel-fifth-picture {
